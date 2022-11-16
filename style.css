@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+}
+
+.one {
+  text-align: center;
+  font-size: 50px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.con{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.two {
+  font-size: 30px ;
+  color:red;
+  margin:10px;
+}
+.two:hover{
+  background-color: crimson;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.three {
+  display: flex;
+  margin-left: px;
+  width: 490px;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+}
+
+.shimmer {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0 auto;
+ 
+  display: inline;
+  margin-bottom: 0;
+}
+
+.shimmer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.1);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(250, 101, 2)), to(rgb(247, 3, 3)), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(rgb(247, 135, 6)), to(rgb(255, 4, 4)), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(rgb(240, 139, 7)), to(rgb(248, 5, 5)), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+50% {
+  background-position: top right;
+}
+  100% {
+    background-position:top left;
+  }
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+50% {
+  background-position: top right;
+}
+  100% {
+    background-position:top left;
+  }
+}
+
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+50% {
+  background-position: top right;
+}
+  100% {
+    background-position:top left;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+50% {
+  background-position: top right;
+}
+  100% {
+    background-position:top left;
+  }
+}
+
+.five {
+  font-size: 30px;
+}
+
+.six {
+  font-size: 30px;
+}
+
+.seven {
+  font-size: 25px;
+}
+
+.eight {
+  font-size: 20px;
+}
+
+.nine {
+  display: flex;
+  justify-content: center;
+}
+
+.ten {
+  font-size: 20px;
+}
+
+.eleven {
+  font-size: 25px;
+}
+
+.twelve {
+  height: 10px;
+  background-color: rgb(255, 119, 0);
+}
+.thirteen{
+  width: 900px;
+}
+.fourteen{
+  font-size: 25px;
+}
+.fifteen{
+  font-size: 20px;
+}
+.sixteen{
+  font-size: 30px;
+}
+.class{
+  font-size: 20px;
+  color:#fff;
+  background-color: black;
+}
